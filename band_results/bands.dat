@@ -1,0 +1,302 @@
+
+     Program BANDS v.7.2 starts on 16Mar2025 at  0:49:18 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial version
+     321 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ./graphene.save/
+     file C.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         301     121     37                12531     3147     647
+
+     Using Slab Decomposition
+
+
+     Check: negative core charge=   -0.000041
+
+     negative rho (up, down):  5.331E-06 0.000E+00
+     Reading collected, re-writing distributed wavefunctions
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+     high-symmetry point:  0.0000 0.5132 0.0000   x coordinate   0.5132
+     high-symmetry point:  0.1111 0.1925 0.0000   x coordinate   0.8527
+     high-symmetry point:  0.1111 0.5774 0.0000   x coordinate   1.2376
+     high-symmetry point:  0.2222 0.3849 0.0000   x coordinate   1.4598
+     high-symmetry point:  0.2222 0.5132 0.0000   x coordinate   1.5881
+     high-symmetry point:  0.3333 0.5774 0.0000   x coordinate   1.7164
+
+     Plottable bands (eV) written to file graphene.bands.dat.gnu
+     Bands written to file graphene.bands.dat
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.00000,   0.00000  )
+
+     point group D_6h(6/mmm)
+     there are 12 classes
+     the character table:
+
+       E     2C6   2C3   C2    3C2'  3C2'' i     2S3   2S6   s_h   3s_d  3s_v 
+A_1g   1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+A_2g   1.00  1.00  1.00  1.00 -1.00 -1.00  1.00  1.00  1.00  1.00 -1.00 -1.00
+B_1g   1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00 -1.00
+B_2g   1.00 -1.00  1.00 -1.00 -1.00  1.00  1.00 -1.00  1.00 -1.00 -1.00  1.00
+E_1g   2.00  1.00 -1.00 -2.00  0.00  0.00  2.00  1.00 -1.00 -2.00  0.00  0.00
+E_2g   2.00 -1.00 -1.00  2.00  0.00  0.00  2.00 -1.00 -1.00  2.00  0.00  0.00
+A_1u   1.00  1.00  1.00  1.00  1.00  1.00 -1.00 -1.00 -1.00 -1.00 -1.00 -1.00
+A_2u   1.00  1.00  1.00  1.00 -1.00 -1.00 -1.00 -1.00 -1.00 -1.00  1.00  1.00
+B_1u   1.00 -1.00  1.00 -1.00  1.00 -1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00
+B_2u   1.00 -1.00  1.00 -1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00  1.00 -1.00
+E_1u   2.00  1.00 -1.00 -2.00  0.00  0.00 -2.00 -1.00  1.00  2.00  0.00  0.00
+E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
+
+     the symmetry operations in each class and the name of the first element:
+
+     E        1
+                                                                 
+     2C6      5    6
+                                                                 
+     2C3      7    8
+                                                                 
+     C2       2
+                                                                 
+     3C2'     4   12   11
+                                                                 
+     3C2''    3    9   10
+                                                                 
+     i       13
+                                                                 
+     2S3     17   18
+                                                                 
+     2S6     19   20
+                                                                 
+     s_h     14
+                                                                 
+     3s_d    16   24   23
+                                                                 
+     3s_v    15   21   22
+                                                                 
+
+     Band symmetry, D_6h(6/mmm) point group:
+
+     e(  1 -  1) =    -18.89749  eV     1   --> A_1g           
+     e(  2 -  2) =     -6.66091  eV     1   --> A_2u           
+     e(  3 -  4) =     -1.99412  eV     2   --> E_2g           
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.12830,   0.00000  )
+
+     point group C_2v (mm2) 
+     there are  4 classes
+     the character table:
+
+       E     C2    s_v   s_v' 
+A_1    1.00  1.00  1.00  1.00
+A_2    1.00  1.00 -1.00 -1.00
+B_1    1.00 -1.00  1.00 -1.00
+B_2    1.00 -1.00 -1.00  1.00
+
+     the symmetry operations in each class and the name of the first element:
+
+     E        1
+                                                                 
+     C2       2
+                                                                 
+     s_v      3
+                                                                 
+     s_v'     4
+                                                                 
+
+     Band symmetry, C_2v (mm2)  point group:
+
+     e(  1 -  1) =    -18.60003  eV     1   --> A_1  D_1  S_1  
+     e(  2 -  2) =     -6.33128  eV     1   --> B_2  D_4  S_4  
+     e(  3 -  3) =     -3.17412  eV     1   --> A_1  D_1  S_1  
+     e(  4 -  4) =     -2.57817  eV     1   --> B_1  D_3  S_3  
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.25660,   0.00000  )
+
+     Band symmetry, C_2v (mm2)  point group:
+
+     e(  1 -  1) =    -17.71774  eV     1   --> A_1  D_1  S_1  
+     e(  2 -  2) =     -5.76334  eV     1   --> A_1  D_1  S_1  
+     e(  3 -  3) =     -5.29524  eV     1   --> B_2  D_4  S_4  
+     e(  4 -  4) =     -3.77180  eV     1   --> B_1  D_3  S_3  
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.38490,   0.00000  )
+
+     Band symmetry, C_2v (mm2)  point group:
+
+     e(  1 -  1) =    -16.27357  eV     1   --> A_1  D_1  S_1  
+     e(  2 -  2) =     -8.76690  eV     1   --> A_1  D_1  S_1  
+     e(  3 -  3) =     -4.83871  eV     1   --> B_1  D_3  S_3  
+     e(  4 -  4) =     -3.65785  eV     1   --> B_2  D_4  S_4  
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.51320,   0.00000  )
+
+     Band symmetry, C_2v (mm2)  point group:
+
+     e(  1 -  1) =    -14.34741  eV     1   --> A_1  D_1  S_1  
+     e(  2 -  2) =    -11.59523  eV     1   --> A_1  D_1  S_1  
+     e(  3 -  3) =     -5.40407  eV     1   --> B_1  D_3  S_3  
+     e(  4 -  4) =     -1.75642  eV     1   --> B_2  D_4  S_4  
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.11111,   0.19245,   0.00000  )
+
+     Band symmetry, C_2v (mm2)  point group:
+
+     e(  1 -  1) =    -18.01251  eV     1   --> A_1  D_1  S_1  
+     e(  2 -  2) =     -5.65576  eV     1   --> B_2  D_4  S_4  
+     e(  3 -  3) =     -4.77404  eV     1   --> B_1  D_3  S_3  
+     e(  4 -  4) =     -3.81176  eV     1   --> A_1  D_1  S_1  
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.11111,   0.32075,   0.00000  )
+
+     point group C_s (m)    
+     there are  2 classes
+     the character table:
+
+       E     s    
+A'     1.00  1.00
+A''    1.00 -1.00
+
+     the symmetry operations in each class and the name of the first element:
+
+     E        1
+                                                                 
+     s        2
+                                                                 
+
+     Band symmetry, C_s (m)     point group:
+
+     e(  1 -  1) =    -16.85096  eV     1   --> A'             
+     e(  2 -  2) =     -7.27895  eV     1   --> A'             
+     e(  3 -  3) =     -5.19553  eV     1   --> A'             
+     e(  4 -  4) =     -4.29981  eV     1   --> A''            
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.11111,   0.44905,   0.00000  )
+
+     Band symmetry, C_s (m)     point group:
+
+     e(  1 -  1) =    -15.14793  eV     1   --> A'             
+     e(  2 -  2) =    -10.09695  eV     1   --> A'             
+     e(  3 -  3) =     -6.05735  eV     1   --> A'             
+     e(  4 -  4) =     -2.42746  eV     1   --> A''            
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.11111,   0.57735,   0.00000  )
+
+     zone border point and non-symmorphic group 
+     symmetry decomposition not available
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.22222,   0.38490,   0.00000  )
+
+     Band symmetry, C_2v (mm2)  point group:
+
+     e(  1 -  1) =    -15.42882  eV     1   --> A_1  D_1  S_1  
+     e(  2 -  2) =     -8.85429  eV     1   --> B_1  D_3  S_3  
+     e(  3 -  3) =     -7.24658  eV     1   --> A_1  D_1  S_1  
+     e(  4 -  4) =     -2.69285  eV     1   --> B_2  D_4  S_4  
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.22222,   0.51320,   0.00000  )
+
+     point group C_s (m)    
+     there are  2 classes
+     the character table:
+
+       E     s    
+A'     1.00  1.00
+A''    1.00 -1.00
+
+     the symmetry operations in each class and the name of the first element:
+
+     E        1
+                                                                 
+     s        2
+                                                                 
+
+     Band symmetry, C_s (m)     point group:
+
+     e(  1 -  1) =    -13.55179  eV     1   --> A'             
+     e(  2 -  2) =    -11.00579  eV     1   --> A'             
+     e(  3 -  3) =     -8.26901  eV     1   --> A'             
+     e(  4 -  4) =     -0.78561  eV     1   --> A''            
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.33333,   0.57735,   0.00000  )
+
+     zone border point and non-symmorphic group 
+     symmetry decomposition not available
+
+ **************************************************************************
+
+     BANDS        :     11.92s CPU      8.64s WALL
+
+
+   This run was terminated on:   0:49:27  16Mar2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
